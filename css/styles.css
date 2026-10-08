@@ -188,3 +188,30 @@ body {
 .article-back a:hover {
     background: rgba(255, 255, 255, 0.65);
 }
+
+/* ---------- 页脚链接 ---------- */
+.footer-links {
+    margin: 12px 0 0;
+}
+
+.footer-links + .footer-links {
+    margin-top: 8px;
+}
+
+.footer-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 14px;
+    padding: 7px 16px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: 0.25s;
+}
+
+.footer-links a:hover {
+    background: rgba(255, 255, 255, 0.65);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
