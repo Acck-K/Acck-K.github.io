@@ -1,35 +1,69 @@
 @media (max-width: 768px) {
-    .title {
-        font-size: 36px;
+    .header {
+        padding: 60px 18px 26px;
     }
 
     .navbar {
-        flex-wrap: wrap;
+        padding: 5px;
     }
 
     .nav-btn {
-        margin-top: 6px;
+        padding: 8px 17px;
+        font-size: 14px;
+    }
+
+    .content {
+        margin-top: 26px;
+        padding: 0 16px;
     }
 
     .post {
-        padding: 20px;
+        padding: 28px 24px;
+        border-radius: 24px;
+    }
+
+    .post h2 {
+        font-size: 23px;
+    }
+
+    .post p {
+        font-size: 16px;
     }
 
     .section-title {
-        font-size: 20px;
+        font-size: 21px;
+    }
+
+    .post-link {
+        padding: 19px 6px;
     }
 
     .post-item-title {
-        font-size: 18px;
+        font-size: 19px;
     }
 
-    .article-title {
-        font-size: 24px;
-        letter-spacing: 2px;
+    .article-body p {
+        font-size: 16.5px;
+        line-height: 2.1;
+    }
+
+    body::before,
+    body::after {
+        width: 340px;
+        height: 340px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 28px;
+    }
+
+    .post {
+        padding: 24px 20px;
     }
 
     .article-body p {
         font-size: 16px;
-        line-height: 2;
     }
 }

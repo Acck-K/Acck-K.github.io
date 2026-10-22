@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     console.log("博客已加载 · Aicoke");
 
-    // 根据当前路径自动高亮对应导航按钮（即使 HTML 里没有手动加 active 也能生效）
     const path = window.location.pathname;
     const file = path.substring(path.lastIndexOf("/") + 1) || "index.html";
     const page = file === "" ? "index.html" : file;
